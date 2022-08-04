@@ -145,10 +145,8 @@ body {
   min-width: 320px;
 }
 
-.no-webp header {
-  background-image: url(../../img/backgrounds/img\ 3.png); }
-
 header {
+  background-image: url(../../img/backgrounds/img\ 3.png);
   background-position: center;
   background-size: cover;
   height: 718px;
@@ -389,10 +387,8 @@ header {
   padding-top: 12.5px;
 }
 
-.no-webp .testimonials {
-  background-image: url(../../img/backgrounds/testmonials-bg\ 2.png); }
-
 .testimonials {
+  background-image: url(../../img/backgrounds/testmonials-bg\ 2.png);
   text-align: center;
   background-size: cover;
 }
@@ -576,10 +572,8 @@ header {
   flex: 1;
 }
 
-.no-webp .code__editor {
-  background: url("../../img/backgrounds/code-editor.jpeg"); }
-
 .code__editor {
+  background: url("../../img/backgrounds/code-editor.jpeg");
   position: absolute;
   right: 0;
   bottom: 8%;
@@ -675,10 +669,8 @@ header {
     max-width: 768px;
   }
 
-  .no-webp header {
-    background-image: url(../../img/backgrounds/img\ 2.png); }
-
   header {
+    background-image: url(../../img/backgrounds/img\ 2.png);
     height: 800px;
   }
 
@@ -748,7 +740,8 @@ header {
     max-width: 1200px;
   }
 
-  .no-webp header {
+ 
+  header {
     background-image: url(../../img/backgrounds/img\ 1.png); }
 
   .navigation {
@@ -866,20 +859,4 @@ header {
   .about__use {
     padding-bottom: 487px;
   }
-}
-
-.webp header { background-image: url(../../img/backgrounds/img\ 3.png); }
-
-.webp .testimonials { background-image: url(../../img/backgrounds/testmonials-bg\ 2.png); }
-
-.webp .code__editor { background: url(../../img/backgrounds/code-editor.webp); }
-
-@media screen and (min-width: 481px) {
-
-  .webp header { background-image: url(../../img/backgrounds/img\ 2.png); }
-}
-
-@media screen and (min-width: 993px) {
-
-  .webp header { background-image: url(../../img/backgrounds/img\ 1.png); }
 }
